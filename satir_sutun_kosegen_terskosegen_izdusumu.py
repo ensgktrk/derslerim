@@ -1,3 +1,4 @@
+import opencv
 import cv2 #Önce kütüphanelerin sizde yüklü olduğunda emin olun.
 import random
 import numpy as np
@@ -94,7 +95,6 @@ satirizdusum(mat)
 sutunizdusum(mat)
 kosegenizdusum(mat)
 terskosegenizdusum(mat)
-geriyeizdusum(mat)
 """
 
 foto_path='LENOVO/Desktop/foto.jpeg'

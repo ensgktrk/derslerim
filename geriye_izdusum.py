@@ -26,7 +26,6 @@ def satirizdusum(matris,satir,sutun):
             ara_toplam=matris[i,j]
             toplam=toplam+ara_toplam
         satir_iz.append(toplam)
-    print("Satır İzdüşüm Değerleri:",satir_iz)
     return satir_iz
 
 #Sütun İzdüşümlerinin Bulunması
@@ -39,7 +38,6 @@ def sutunizdusum(matris,satir,sutun):
             ara_toplam=matris[j,i]
             toplam=toplam+ara_toplam
         sutun_iz.append(toplam)
-    print("Sutun İzdüşüm Değerleri:",sutun_iz)
     return sutun_iz
 
 
