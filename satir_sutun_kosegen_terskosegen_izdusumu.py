@@ -1,4 +1,4 @@
-import opencv
+#import opencv
 import cv2 #Önce kütüphanelerin sizde yüklü olduğunda emin olun.
 import random
 import numpy as np
@@ -97,7 +97,7 @@ kosegenizdusum(mat)
 terskosegenizdusum(mat)
 """
 
-foto_path='LENOVO/Desktop/foto.jpeg'
+foto_path='LENOVO/Desktop/resim.jpg'
 foto= cv2.imread(foto_path,0) # Gri olarak resmi belirtilen dosyadan aldık.
 satir,sutun,kanal_sayisi =foto.shape # Satır Sütun sayısını bulduk.
                                      #(Gri olarak çalıştığımız için kanal sayısı '1'e eşit olur.)
